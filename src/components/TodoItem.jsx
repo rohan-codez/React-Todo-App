@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { useTodo } from '../contexts/TodoContext';
-import deleteLogo from '../icons/del.png'
+import deleteLogo from '../icons/delete.png'
 import editLogo from '../icons/edit.png'
 import saveLogo from '../icons/save.png'
 
@@ -49,14 +49,14 @@ function TodoItem({ todo }) {
                 }}
                 disabled={todo.completed}
             >
-                {isTodoEditable ? <img src={saveLogo} alt='save' /> : <img src={editLogo} alt='edit' />}
+                {isTodoEditable ? <img className='h-7' src={saveLogo} alt='save' /> : <img className='h-7' src={editLogo} alt='edit' />}
             </button>
             {/* Delete Todo Button */}
             <button
                 className="select-none inline-flex w-8 h-8 rounded-lg text-sm border-none justify-center items-center  bg-transparent hover:bg-gray-100 shrink-0  opacity-100"
                 onClick={() => deleteTodo(todo.id)}
             >
-                <img src={deleteLogo} alt="delete" />
+                <img className='h-7' src={deleteLogo} alt="delete" />
             </button>
         </div>
     );
