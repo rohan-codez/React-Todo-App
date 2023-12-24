@@ -31,7 +31,8 @@ function TodoItem({ todo }) {
             />
             <input
                 type="text"
-                className={`py-2 border outline-none w-full bg-transparent rounded-lg ${isTodoEditable ? "border-black/10 px-2" : "border-transparent"
+                spellCheck={false}
+                className={`py-2 border outline-none w-full bg-transparent rounded-lg  ${isTodoEditable ? "border-black px-2" : "border-transparent"
                     } ${todo.completed ? "line-through" : ""}`}
                 value={todoMsg}
                 onChange={(e) => setTodoMsg(e.target.value)}

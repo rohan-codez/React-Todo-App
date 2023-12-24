@@ -19,6 +19,7 @@ function TodoForm() {
             <input
                 type="text"
                 placeholder="Write Todo..."
+                spellCheck={false}
                 className="w-full border border-black/10 rounded-l-lg px-3 outline-none duration-150 bg-white/10 py-3"
                 value={todo}
                 onChange={(e) => setTodo(e.target.value)}

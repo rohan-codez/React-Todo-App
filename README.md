@@ -1,8 +1,13 @@
-# React + Vite
+Inspired from [Hitesh Choudhary](https://github.com/hiteshchoudhary)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### This is a simple Todo App made with React.js (context api) and tailwindCSS.
 
-Currently, two official plugins are available:
+### The design is clean + responsive and the todos are stored in localStorage.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### [DEPLOYED HERE](https://todo-rohan-codez.netlify.app/)
+
+
+###  Light/dark mode button maybe added later
+
+
+
